@@ -25,6 +25,7 @@ def number_guessing_game():
             print("Too high! Try again.")
 
 
+    
     play_again = input("Do you want to play again? (yes/no): ")
     if play_again.lower() == "yes" or play_again.lower() == "y":
         number_guessing_game()
